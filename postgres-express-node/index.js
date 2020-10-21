@@ -99,8 +99,8 @@ async function init() {
   // printMedicalTests({ username: "john", tests });
 
   /**
-   * * Message authentication (hash and MAC crypto functions)
-   */
+   * * Message authentication (hash and MAC crypto functions)*/
+   
   try {
     const secret = "my supper secret";
     let message = "Authenticate this message.";
@@ -114,7 +114,8 @@ async function init() {
     // * ===============================
     // * Example: Authenticating a file
     // *--------------------------------
-    const CREATE_TAG = false;
+
+    /*const CREATE_TAG = false;
 
     if (CREATE_TAG) {
       // * Authenticate the file
@@ -144,7 +145,7 @@ async function init() {
           } authentic.`
         );
       });
-    }
+    }*/ 
   } catch (err) {
     console.log(err.message);
   }
